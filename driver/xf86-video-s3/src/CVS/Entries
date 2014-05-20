@@ -1,0 +1,18 @@
+/Makefile.am/1.5/Sat Sep  8 16:03:39 2012//
+/Makefile.in/1.8/Sat Sep  8 16:03:39 2012//
+/compat-api.h/1.1/Sat Sep  8 16:03:39 2012//
+/newmmio.h/1.3/Sat Mar  7 11:38:15 2009//
+/s3.h/1.6/Sat Sep  8 16:03:39 2012//
+/s3_IBMRGB.c/1.3/Sat Sep  8 16:03:39 2012//
+/s3_Ti.c/1.4/Sat Sep  8 16:03:39 2012//
+/s3_Trio64DAC.c/1.3/Sat Mar  7 11:38:15 2009//
+/s3_accel.c/1.4/Sat Sep  8 16:03:39 2012//
+/s3_bios.c/1.4/Sun May 13 20:25:50 2012//
+/s3_cursor.c/1.3/Sat Sep  8 16:03:39 2012//
+/s3_dga.c/1.4/Sat Sep  8 16:03:39 2012//
+/s3_driver.c/1.7/Sun May 12 13:06:25 2013//
+/s3_pcirename.h/1.1/Sun Oct 12 21:11:38 2008//
+/s3_reg.h/1.3/Sat Mar  7 11:38:15 2009//
+/s3_shadow.c/1.2/Sat Sep  8 16:03:39 2012//
+/s3_video.c/1.6/Sat Sep  8 16:03:39 2012//
+D

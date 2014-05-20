@@ -1,0 +1,24 @@
+/Makefile.am/1.5/Sun Oct 31 16:35:36 2010//
+/Makefile.in/1.11/Fri May 31 15:47:21 2013//
+/XDGA.man/1.3/Sat Mar 10 17:07:14 2012//
+/XDGAChangePixmapMode.man/1.1/Sun Oct 31 16:35:36 2010//
+/XDGACloseFramebuffer.man/1.1/Sun Oct 31 16:35:36 2010//
+/XDGACopyArea.man/1.1/Sun Oct 31 16:35:36 2010//
+/XDGACopyTransparentArea.man/1.1/Sun Oct 31 16:35:36 2010//
+/XDGACreateColormap.man/1.1/Sun Oct 31 16:35:36 2010//
+/XDGAFillRectangle.man/1.1/Sun Oct 31 16:35:36 2010//
+/XDGAGetViewportStatus.man/1.1/Sun Oct 31 16:35:36 2010//
+/XDGAInstallColormap.man/1.1/Sun Oct 31 16:35:36 2010//
+/XDGAKeyEventToXKeyEvent.man/1.1/Sun Oct 31 16:35:36 2010//
+/XDGAOpenFramebuffer.man/1.1/Sun Oct 31 16:35:36 2010//
+/XDGAQueryExtension.man/1.1/Sun Oct 31 16:35:36 2010//
+/XDGAQueryModes.man/1.1/Sun Oct 31 16:35:36 2010//
+/XDGAQueryVersion.man/1.1/Sun Oct 31 16:35:36 2010//
+/XDGASelectInput.man/1.1/Sun Oct 31 16:35:36 2010//
+/XDGASetClientVersion.man/1.1/Sun Oct 31 16:35:36 2010//
+/XDGASetMode.man/1.1/Sun Oct 31 16:35:36 2010//
+/XDGASetViewport.man/1.1/Sun Oct 31 16:35:36 2010//
+/XDGASync.man/1.1/Sun Oct 31 16:35:36 2010//
+/XF86DGA.man/1.1/Sun Oct 31 16:35:36 2010//
+/XFree86-DGA.man/1.1/Sun Oct 31 16:35:36 2010//
+D

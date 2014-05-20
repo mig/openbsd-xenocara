@@ -1,0 +1,19 @@
+/Makefile.am/1.8/Fri Jan  3 09:37:48 2014//
+/Makefile.in/1.10/Fri Jan  3 09:37:48 2014//
+/backend_bsd.c/1.5/Sat Nov  5 14:01:51 2011//
+/backend_bsd.h/1.2/Sun May  3 13:54:12 2009//
+/backend_evdev.c/1.6/Fri Jan  3 09:37:48 2014//
+/backend_evdev.h/1.2/Sun May  3 13:54:12 2009//
+/backend_joystick.c/1.5/Sat Nov  5 14:01:51 2011//
+/backend_joystick.h/1.2/Sun May  3 13:54:12 2009//
+/jstk.c/1.8/Fri Jan  3 09:37:48 2014//
+/jstk.h/1.6/Sat Nov  5 14:01:51 2011//
+/jstk_axis.c/1.6/Fri Jan  3 09:37:48 2014//
+/jstk_axis.h/1.5/Sat Nov  5 14:01:51 2011//
+/jstk_key.c/1.7/Sun Apr  8 17:03:03 2012//
+/jstk_key.h/1.5/Sat Nov  5 14:01:51 2011//
+/jstk_options.c/1.6/Sat Nov  5 14:01:51 2011//
+/jstk_options.h/1.2/Sun May  3 13:54:12 2009//
+/jstk_properties.c/1.6/Fri Jan  3 09:37:48 2014//
+/jstk_properties.h/1.1/Sun May  3 13:54:12 2009//
+D

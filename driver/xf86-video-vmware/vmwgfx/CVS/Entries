@@ -1,0 +1,22 @@
+/Makefile.am/1.1/Sun May  6 16:29:02 2012//
+/Makefile.in/1.2/Wed Dec 19 21:37:23 2012//
+/svga3d_reg.h/1.1/Sun May  6 16:29:02 2012//
+/vmwgfx_crtc.c/1.2/Wed Dec 19 21:37:23 2012//
+/vmwgfx_ctrl.c/1.1/Sun May  6 16:29:02 2012//
+/vmwgfx_ctrl.h/1.1/Sun May  6 16:29:02 2012//
+/vmwgfx_dri2.c/1.2/Wed Dec 19 21:37:23 2012//
+/vmwgfx_driver.c/1.3/Sun May 12 13:06:25 2013//
+/vmwgfx_driver.h/1.2/Wed Dec 19 21:37:23 2012//
+/vmwgfx_drm.h/1.1/Sun May  6 16:29:02 2012//
+/vmwgfx_drmi.c/1.1/Sun May  6 16:29:02 2012//
+/vmwgfx_drmi.h/1.1/Sun May  6 16:29:02 2012//
+/vmwgfx_output.c/1.1/Sun May  6 16:29:02 2012//
+/vmwgfx_overlay.c/1.1/Sun May  6 16:29:02 2012//
+/vmwgfx_saa.c/1.2/Wed Dec 19 21:37:23 2012//
+/vmwgfx_saa.h/1.1/Sun May  6 16:29:02 2012//
+/vmwgfx_saa_priv.h/1.1/Sun May  6 16:29:02 2012//
+/vmwgfx_tex_video.c/1.2/Wed Dec 19 21:37:23 2012//
+/vmwgfx_xa_composite.c/1.1/Sun May  6 16:29:02 2012//
+/vmwgfx_xa_surface.c/1.2/Wed Dec 19 21:37:23 2012//
+/wsbm_util.h/1.1/Sun May  6 16:29:02 2012//
+D

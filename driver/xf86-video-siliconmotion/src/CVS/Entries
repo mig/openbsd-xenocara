@@ -1,0 +1,26 @@
+/Makefile.am/1.5/Sat Sep  8 22:33:13 2012//
+/Makefile.in/1.11/Sat Sep  8 22:33:13 2012//
+/compat-api.h/1.1/Sat Sep  8 22:33:13 2012//
+/regsmi.h/1.3/Thu Mar 26 22:09:36 2009//
+/smi.h/1.6/Sat Sep  8 22:33:13 2012//
+/smi501_crtc.c/1.1/Thu Mar 26 22:09:36 2009//
+/smi501_output.c/1.1/Thu Mar 26 22:09:36 2009//
+/smi_501.c/1.2/Sun Nov 22 17:53:03 2009//
+/smi_501.h/1.2/Sun May  3 16:53:46 2009//
+/smi_accel.c/1.3/Thu Mar 26 22:09:36 2009//
+/smi_crtc.c/1.2/Sat May  7 08:47:55 2011//
+/smi_crtc.h/1.1/Thu Mar 26 22:09:36 2009//
+/smi_dac.c/1.3/Thu Mar 26 22:09:36 2009//
+/smi_driver.c/1.9/Sun May 12 13:06:25 2013//
+/smi_exa.c/1.4/Sat Sep  8 22:33:13 2012//
+/smi_i2c.c/1.3/Thu Mar 26 22:09:36 2009//
+/smi_output.c/1.2/Sat May  7 08:47:55 2011//
+/smi_pcirename.h/1.2/Thu Mar 26 22:09:36 2009//
+/smi_video.c/1.7/Sat Sep  8 22:33:13 2012//
+/smi_video.h/1.2/Thu Aug 21 19:55:24 2008//
+/smi_xaa.c/1.3/Sat Sep  8 22:33:13 2012//
+/smilynx.h/1.1/Thu Mar 26 22:09:36 2009//
+/smilynx_crtc.c/1.3/Sun Nov 22 17:53:03 2009//
+/smilynx_hw.c/1.3/Sat Sep  8 22:33:13 2012//
+/smilynx_output.c/1.2/Sun May  3 16:53:46 2009//
+D

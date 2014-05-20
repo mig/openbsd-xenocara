@@ -1,0 +1,55 @@
+/Makefile.am/1.5/Sat Nov  5 13:32:49 2011//
+/Makefile.in/1.28/Sat Aug 24 19:44:33 2013//
+/dmx-config.h/1.5/Sun Jun 10 13:21:22 2012//
+/dmx.c/1.8/Fri Jun  7 17:28:48 2013//
+/dmx.h/1.8/Fri Jun  7 17:28:48 2013//
+/dmx_glxvisuals.c/1.5/Fri Jun  7 17:28:48 2013//
+/dmx_glxvisuals.h/1.3/Sun Jun 10 13:21:22 2012//
+/dmxcb.c/1.5/Sun Jun 10 13:21:22 2012//
+/dmxcb.h/1.2/Sun Jun 10 13:21:22 2012//
+/dmxclient.h/1.5/Sun Jun 10 13:21:22 2012//
+/dmxcmap.c/1.4/Sun Jun 10 13:21:22 2012//
+/dmxcmap.h/1.4/Sun Jun 10 13:21:22 2012//
+/dmxcursor.c/1.7/Fri Jun  7 17:28:48 2013//
+/dmxcursor.h/1.4/Sun Jun 10 13:21:22 2012//
+/dmxdpms.c/1.3/Sun Jun 10 13:21:22 2012//
+/dmxdpms.h/1.2/Sun Jun 10 13:21:22 2012//
+/dmxextension.c/1.8/Fri Jun  7 17:28:48 2013//
+/dmxextension.h/1.3/Sun Jun 10 13:21:22 2012//
+/dmxfont.c/1.6/Sun Jun 10 13:21:22 2012//
+/dmxfont.h/1.2/Sun Jun 10 13:21:22 2012//
+/dmxgc.c/1.6/Sun Jun 10 13:21:22 2012//
+/dmxgc.h/1.4/Sun Jun 10 13:21:22 2012//
+/dmxgcops.c/1.5/Sun Jun 10 13:21:22 2012//
+/dmxgcops.h/1.2/Sun Jun 10 13:21:22 2012//
+/dmxinit.c/1.7/Fri Jun  7 17:28:48 2013//
+/dmxinit.h/1.2/Sun Jun 10 13:21:22 2012//
+/dmxinput.c/1.5/Sun Jun 10 13:21:22 2012//
+/dmxinput.h/1.4/Sun Jun 10 13:21:22 2012//
+/dmxlog.c/1.4/Fri Jun  7 17:28:48 2013//
+/dmxlog.h/1.3/Sun Jun 10 13:21:22 2012//
+/dmxpict.c/1.7/Sun Jun 10 13:21:22 2012//
+/dmxpict.h/1.5/Sun Jun 10 13:21:22 2012//
+/dmxpixmap.c/1.4/Sun Jun 10 13:21:22 2012//
+/dmxpixmap.h/1.4/Sun Jun 10 13:21:22 2012//
+/dmxprop.c/1.3/Sun Jun 10 13:21:22 2012//
+/dmxprop.h/1.2/Sun Jun 10 13:21:22 2012//
+/dmxscrinit.c/1.8/Fri Jun  7 17:28:48 2013//
+/dmxscrinit.h/1.5/Fri Jun  7 17:28:48 2013//
+/dmxshadow.c/1.3/Sun Jun 10 13:21:22 2012//
+/dmxshadow.h/1.2/Sun Jun 10 13:21:22 2012//
+/dmxstat.c/1.5/Sun Jun 10 13:21:22 2012//
+/dmxstat.h/1.2/Sun Jun 10 13:21:22 2012//
+/dmxsync.c/1.4/Sun Jun 10 13:21:22 2012//
+/dmxsync.h/1.2/Sun Jun 10 13:21:22 2012//
+/dmxvisual.c/1.2/Sun Jun 10 13:21:22 2012//
+/dmxvisual.h/1.2/Sun Jun 10 13:21:22 2012//
+/dmxwindow.c/1.8/Fri Jun  7 17:28:48 2013//
+/dmxwindow.h/1.5/Sun Jun 10 13:21:22 2012//
+D/config////
+D/doc////
+D/doxygen////
+D/examples////
+D/glxProxy////
+D/input////
+D/man////

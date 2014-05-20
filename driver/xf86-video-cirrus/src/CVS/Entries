@@ -1,0 +1,23 @@
+/CirrusClk.c/1.4/Thu Aug 16 16:13:04 2012//
+/Makefile.am/1.5/Sat Jun 29 09:16:23 2013//
+/Makefile.in/1.7/Sat Jun 29 09:16:23 2013//
+/alp.h/1.5/Sat Jun 29 09:16:23 2013//
+/alp_driver.c/1.7/Sat Jun 29 09:16:23 2013//
+/alp_exa.c/1.1/Sat Jun 29 09:16:23 2013//
+/alp_hwcurs.c/1.3/Thu Aug 16 16:13:04 2012//
+/alp_i2c.c/1.3/Thu Aug 16 16:13:04 2012//
+/alp_xaa.c/1.3/Thu Aug 16 16:13:04 2012//
+/alp_xaam.c/1.3/Thu Aug 16 16:13:04 2012//
+/cir.h/1.5/Sat Jun 29 09:16:23 2013//
+/cir_dga.c/1.4/Thu Aug 16 16:13:04 2012//
+/cir_driver.c/1.5/Thu Aug 16 16:13:04 2012//
+/cir_pcirename.h/1.3/Thu Aug 16 16:13:04 2012//
+/cir_shadow.c/1.4/Thu Aug 16 16:13:04 2012//
+/compat-api.h/1.1/Thu Aug 16 16:13:04 2012//
+/lg.h/1.4/Thu Aug 16 16:13:04 2012//
+/lg_driver.c/1.6/Sun May 12 13:06:25 2013//
+/lg_hwcurs.c/1.3/Thu Aug 16 16:13:04 2012//
+/lg_i2c.c/1.3/Thu Aug 16 16:13:04 2012//
+/lg_xaa.c/1.3/Thu Aug 16 16:13:04 2012//
+/lg_xaa.h/1.3/Sun May  6 15:41:35 2012//
+D

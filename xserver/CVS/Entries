@@ -1,0 +1,52 @@
+/COPYING/1.6/Fri Jun  7 17:28:45 2013//
+/ChangeLog/1.19/Sat Dec 28 14:40:01 2013//
+/Makefile.am/1.6/Fri Jun  7 17:28:45 2013//
+/Makefile.bsd-wrapper/1.50/Sat Dec 28 16:31:18 2013//
+/Makefile.in/1.27/Sat Aug 24 19:44:27 2013//
+/README/1.1/Tue Jul 27 19:02:24 2010//
+/aclocal.m4/1.28/Sat Sep 28 15:36:31 2013//
+/autogen.sh/1.3/Fri Jun  7 17:28:45 2013//
+/config.guess/1.7/Fri Jun  7 17:28:45 2013//
+/config.h.in/1.1/Fri Jun  7 17:28:45 2013//
+/config.sub/1.7/Fri Jun  7 17:28:45 2013//
+/configure/1.48/Sat Dec 28 14:40:01 2013//
+/configure.ac/1.43/Sat Dec 28 14:40:01 2013//
+/depcomp/1.5/Fri Jun  7 17:28:46 2013//
+/devbook.am/1.2/Sun Jun 10 13:21:06 2012//
+/docbook.am/1.2/Sun Jun 10 13:21:06 2012//
+/fix-miregion/1.1/Sat Nov  5 13:32:40 2011//
+/fix-miregion-private/1.1/Sat Nov  5 13:32:40 2011//
+/fix-patch-whitespace/1.1/Sat Nov  5 13:32:40 2011//
+/fix-region/1.1/Sat Nov  5 13:32:40 2011//
+/install-sh/1.3/Sun Aug  5 18:14:29 2012//
+/ltmain.sh/1.8/Sun Dec 18 16:08:59 2011//
+/manpages.am/1.1/Sat Nov  5 13:32:40 2011//
+/missing/1.3/Sun Aug  5 18:14:29 2012//
+/xorg-server.m4/1.3/Fri Jun  7 17:28:46 2013//
+/xorg-server.pc.in/1.7/Fri Jun  7 17:28:46 2013//
+/xserver.ent.in/1.1/Sat Nov  5 13:32:40 2011//
+/ylwrap/1.3/Sun Oct 14 08:59:33 2012//
+D/Xext////
+D/Xi////
+D/composite////
+D/config////
+D/damageext////
+D/dbe////
+D/dix////
+D/doc////
+D/exa////
+D/fb////
+D/glx////
+D/hw////
+D/include////
+D/m4////
+D/man////
+D/mi////
+D/miext////
+D/os////
+D/randr////
+D/record////
+D/render////
+D/test////
+D/xfixes////
+D/xkb////

@@ -1,0 +1,22 @@
+/ClientMsg.c/1.1.1.1/Sun Nov 26 10:53:40 2006//
+/ColorUtils.c/1.1.1.1/Sun Nov 26 10:53:40 2006//
+/GetFont.c/1.1.1.1/Sun Nov 26 10:53:40 2006//
+/GetFontSet.c/1.1.1.1/Sun Nov 26 10:53:40 2006//
+/Grab.c/1.1.1.1/Sun Nov 26 10:53:40 2006//
+/Imakefile/1.1.1.1/Sun Nov 26 10:53:40 2006//
+/Makefile/1.2/Mon Nov 27 19:56:35 2006//
+/ModParse.c/1.1.1.1/Sun Nov 26 10:53:41 2006//
+/ModParse.h/1.1.1.1/Sun Nov 26 10:53:41 2006//
+/Module.c/1.2/Sat Oct 24 13:34:54 2009//
+/Parse.c/1.2/Mon Sep  1 19:18:13 2008//
+/Picture.c/1.2/Tue Jan 18 19:28:33 2011//
+/Strings.c/1.1.1.1/Sun Nov 26 10:53:41 2006//
+/System.c/1.1.1.1/Sun Nov 26 10:53:41 2006//
+/XResource.c/1.1.1.1/Sun Nov 26 10:53:41 2006//
+/debug.c/1.1.1.1/Sun Nov 26 10:53:41 2006//
+/envvar.c/1.1.1.1/Sun Nov 26 10:53:41 2006//
+/fvwmlib.h/1.2/Tue Jan 18 19:28:33 2011//
+/lang-strings.h/1.1.1.1/Sun Nov 26 10:53:42 2006//
+/safemalloc.c/1.1.1.1/Sun Nov 26 10:53:42 2006//
+/wild.c/1.1.1.1/Sun Nov 26 10:53:42 2006//
+D

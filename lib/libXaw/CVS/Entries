@@ -1,0 +1,27 @@
+/COPYING/1.4/Sun Apr  8 14:59:44 2012//
+/ChangeLog/1.7/Sat Sep 28 17:25:07 2013//
+/INSTALL/1.3/Sun Oct 31 11:31:11 2010//
+/Makefile.am/1.7/Sun Apr  8 14:59:44 2012//
+/Makefile.bsd-wrapper/1.11/Tue Aug 13 07:07:13 2013//
+/Makefile.in/1.13/Sat Sep 28 17:25:07 2013//
+/README/1.2/Fri Apr 23 19:37:47 2010//
+/aclocal.m4/1.13/Sat Sep 28 17:25:07 2013//
+/autogen.sh/1.1.1.1/Sat Nov 25 16:55:53 2006//
+/compile/1.4/Sat Sep 28 17:25:08 2013//
+/config.guess/1.3/Sat Sep 28 17:25:08 2013//
+/config.h.in/1.7/Sat Sep 28 17:25:08 2013//
+/config.sub/1.3/Sat Sep 28 17:25:08 2013//
+/configure/1.17/Sat Sep 28 17:25:08 2013//
+/configure.ac/1.12/Sat Sep 28 17:25:09 2013//
+/depcomp/1.3/Sat Sep 28 17:25:09 2013//
+/docbook.am/1.1/Sun Apr  8 14:59:44 2012//
+/install-sh/1.3/Sat Sep 28 17:25:09 2013//
+/ltmain.sh/1.6/Sun Apr  8 14:59:44 2012//
+/missing/1.3/Sat Sep 28 17:25:09 2013//
+/xaw6.pc.in/1.3/Thu Jun  2 13:40:14 2011//
+/xaw7.pc.in/1.3/Thu Jun  2 13:40:14 2011//
+D/include////
+D/man////
+D/old-doc////
+D/specs////
+D/src////

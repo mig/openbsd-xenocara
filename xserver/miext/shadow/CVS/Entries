@@ -1,0 +1,26 @@
+/Makefile.am/1.2/Sat Nov  5 13:32:57 2011//
+/Makefile.in/1.27/Sat Aug 24 19:44:50 2013//
+/shadow.c/1.8/Fri Jun  7 17:28:55 2013//
+/shadow.h/1.5/Sun Jun 10 13:21:31 2012//
+/shalloc.c/1.3/Sun Jun 10 13:21:31 2012//
+/shpacked.c/1.6/Sun Jun 10 13:21:31 2012//
+/shplanar.c/1.4/Sun Jun 10 13:21:31 2012//
+/shplanar8.c/1.4/Sun Jun 10 13:21:31 2012//
+/shrot16pack.c/1.1.1.2/Sat Nov 24 17:57:04 2007//
+/shrot16pack_180.c/1.1.1.2/Sat Nov 24 17:57:03 2007//
+/shrot16pack_270.c/1.1.1.2/Sat Nov 24 17:57:04 2007//
+/shrot16pack_270YX.c/1.1.1.2/Sat Nov 24 17:57:04 2007//
+/shrot16pack_90.c/1.1.1.2/Sat Nov 24 17:57:04 2007//
+/shrot16pack_90YX.c/1.1.1.2/Sat Nov 24 17:57:04 2007//
+/shrot32pack.c/1.1.1.2/Sat Nov 24 17:57:04 2007//
+/shrot32pack_180.c/1.1.1.2/Sat Nov 24 17:57:04 2007//
+/shrot32pack_270.c/1.1.1.2/Sat Nov 24 17:57:04 2007//
+/shrot32pack_90.c/1.1.1.2/Sat Nov 24 17:57:04 2007//
+/shrot8pack.c/1.1.1.2/Sat Nov 24 17:57:04 2007//
+/shrot8pack_180.c/1.1.1.2/Sat Nov 24 17:57:04 2007//
+/shrot8pack_270.c/1.1.1.2/Sat Nov 24 17:57:04 2007//
+/shrot8pack_90.c/1.1.1.2/Sat Nov 24 17:57:04 2007//
+/shrotate.c/1.4/Sun Jun 10 13:21:31 2012//
+/shrotpack.h/1.4/Sun Jun 10 13:21:31 2012//
+/shrotpackYX.h/1.5/Fri Jun  7 17:28:55 2013//
+D

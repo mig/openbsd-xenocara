@@ -1,0 +1,25 @@
+/Makefile/1.3/Sun Apr 18 20:06:18 2010//
+/Makefile.inc/1.8/Wed Nov  7 15:50:22 2012//
+D/libxcb////
+D/libxcb-composite////
+D/libxcb-damage////
+D/libxcb-dpms////
+D/libxcb-dri2////
+D/libxcb-glx////
+D/libxcb-randr////
+D/libxcb-record////
+D/libxcb-render////
+D/libxcb-res////
+D/libxcb-screensaver////
+D/libxcb-shape////
+D/libxcb-shm////
+D/libxcb-sync////
+D/libxcb-xevie////
+D/libxcb-xf86dri////
+D/libxcb-xfixes////
+D/libxcb-xinerama////
+D/libxcb-xprint////
+D/libxcb-xtest////
+D/libxcb-xv////
+D/libxcb-xvmc////
+D/src////

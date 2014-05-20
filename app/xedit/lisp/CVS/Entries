@@ -1,0 +1,53 @@
+/README/1.1.1.1/Sat Nov 25 20:34:53 2006//
+/TODO/1.1.1.1/Sat Nov 25 20:34:40 2006//
+/bytecode.c/1.2/Mon Oct 13 20:53:32 2008//
+/bytecode.h/1.1.1.1/Sat Nov 25 20:34:51 2006//
+/compile.c/1.2/Mon Oct 13 20:53:32 2008//
+/core.c/1.3/Mon Jan 14 22:05:52 2013//
+/core.h/1.1.1.1/Sat Nov 25 20:34:41 2006//
+/debugger.c/1.1.1.1/Sat Nov 25 20:34:40 2006//
+/debugger.h/1.1.1.1/Sat Nov 25 20:34:54 2006//
+/format.c/1.2/Mon Oct 13 20:53:32 2008//
+/format.h/1.1.1.1/Sat Nov 25 20:34:42 2006//
+/getenv.c/1.1/Mon Jan 14 22:05:52 2013//
+/hash.c/1.2/Mon Oct 13 20:53:32 2008//
+/hash.h/1.1.1.1/Sat Nov 25 20:34:51 2006//
+/helper.c/1.2/Mon Oct 13 20:53:32 2008//
+/helper.h/1.1.1.1/Sat Nov 25 20:34:49 2006//
+/internal.h/1.2/Mon Oct 13 20:53:32 2008//
+/io.c/1.3/Sun Oct 31 19:19:11 2010//
+/io.h/1.1.1.1/Sat Nov 25 20:34:44 2006//
+/lisp.c/1.3/Mon Jan 14 22:05:52 2013//
+/lisp.h/1.1.1.1/Sat Nov 25 20:34:53 2006//
+/lsp.c/1.1.1.1/Sat Nov 25 20:34:44 2006//
+/math.c/1.2/Mon Oct 13 20:53:32 2008//
+/math.h/1.1.1.1/Sat Nov 25 20:34:39 2006//
+/mathimp.c/1.2/Mon Jan 14 22:05:52 2013//
+/package.c/1.2/Mon Oct 13 20:53:32 2008//
+/package.h/1.1.1.1/Sat Nov 25 20:34:40 2006//
+/pathname.c/1.1.1.1/Sat Nov 25 20:34:48 2006//
+/pathname.h/1.1.1.1/Sat Nov 25 20:34:53 2006//
+/private.h/1.2/Mon Oct 13 20:53:32 2008//
+/read.c/1.3/Mon Jan 14 22:05:52 2013//
+/read.h/1.1.1.1/Sat Nov 25 20:34:51 2006//
+/regex.c/1.1.1.1/Sat Nov 25 20:34:53 2006//
+/regex.h/1.1.1.1/Sat Nov 25 20:34:40 2006//
+/require.c/1.1.1.1/Sat Nov 25 20:34:44 2006//
+/require.h/1.1.1.1/Sat Nov 25 20:34:38 2006//
+/setenv.c/1.1/Mon Jan 14 22:05:52 2013//
+/stream.c/1.2/Mon Oct 13 20:53:32 2008//
+/stream.h/1.1.1.1/Sat Nov 25 20:34:44 2006//
+/string.c/1.2/Mon Oct 13 20:53:32 2008//
+/string.h/1.1.1.1/Sat Nov 25 20:34:42 2006//
+/struct.c/1.2/Mon Oct 13 20:53:32 2008//
+/struct.h/1.1.1.1/Sat Nov 25 20:34:44 2006//
+/time.c/1.1.1.1/Sat Nov 25 20:34:43 2006//
+/time.h/1.1.1.1/Sat Nov 25 20:34:51 2006//
+/write.c/1.2/Mon Oct 13 20:53:32 2008//
+/write.h/1.1.1.1/Sat Nov 25 20:34:44 2006//
+/xedit.c/1.1.1.1/Sat Nov 25 20:34:54 2006//
+/xedit.h/1.1.1.1/Sat Nov 25 20:34:53 2006//
+D/modules////
+D/mp////
+D/re////
+D/test////

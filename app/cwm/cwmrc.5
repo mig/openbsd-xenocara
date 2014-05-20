@@ -1,0 +1,493 @@
+.\"	$OpenBSD: cwmrc.5,v 1.58 2014/01/29 21:17:33 okan Exp $
+.\"
+.\" Copyright (c) 2004,2005 Marius Aamodt Eriksen <marius@monkey.org>
+.\"
+.\" Permission to use, copy, modify, and distribute this software for any
+.\" purpose with or without fee is hereby granted, provided that the above
+.\" copyright notice and this permission notice appear in all copies.
+.\"
+.\" THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+.\" WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+.\" MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+.\" ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+.\" WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+.\" ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+.\" OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+.\"
+.Dd $Mdocdate: January 29 2014 $
+.Dt CWMRC 5
+.Os
+.Sh NAME
+.Nm cwmrc
+.Nd calm window manager configuration file
+.Sh DESCRIPTION
+This manual page describes the
+.Xr cwm 1
+configuration file.
+.Pp
+The current line can be extended over multiple lines using a backslash
+.Pq Sq \e .
+Comments can be put anywhere in the file using a hash mark
+.Pq Sq # ,
+and extend to the end of the current line.
+Care should be taken when commenting out multi-line text:
+the comment is effective until the end of the entire block.
+.Pp
+Arguments containing whitespace should be surrounded by double quotes
+.Pq \&" .
+.Pp
+The following options are accepted:
+.Pp
+.Bl -tag -width Ds -compact
+.It Ic autogroup Ar group windowclass
+.It Ic autogroup Ar group windowname,windowclass
+Automatically add new windows to
+.Ar group
+if their class property matches
+.Ar windowclass ,
+or if their name and class properties match
+.Ar windowname
+and
+.Ar windowclass ,
+respectively.
+The more specific last match wins.
+.Ar group
+is a number between 0 and 9.
+If
+.Ar group
+is 0, matching windows will not be added to any group; this may be
+used to override
+.Dq sticky group mode .
+.Pp
+The name and class values, respectively, for existing windows
+are both set in the WM_CLASS property and may be obtained using
+.Xr xprop 1 .
+.Pp
+.It Ic bind Ar keys command
+Cause the creation of a key binding, or replacement of a default
+key binding.
+The modifier keys come first, followed by a
+.Sq - .
+.Pp
+The following modifiers are recognised:
+.Pp
+.Bl -tag -width Ds -offset indent -compact
+.It C
+The Control key.
+.It M
+The Meta key.
+.It S
+The Shift key.
+.It 4
+The Mod4 key (normally the windows key).
+.El
+.Pp
+The
+.Sq -
+should be followed by a keysym name, taken from
+.Pa /usr/X11R6/include/X11/keysymdef.h .
+The
+.Ar command
+may either be one from the
+.Sx BIND COMMAND LIST
+(see below) or the command line that is to be executed.
+.Pp
+A special
+.Ar command
+keyword
+.Dq unmap
+can be used to remove the named key binding.
+This can be used to remove a binding which conflicts with an
+application.
+.Pp
+.It Ic borderwidth Ar pixels
+Set the window border width to
+.Ar pixels .
+.Pp
+.It Ic color activeborder Ar color
+Set the color of the active border.
+.Pp
+.It Ic color font Ar color
+Set menu font color.
+.Pp
+.It Ic color selfont Ar color
+Set font color for selected menu item.
+.Pp
+.It Ic color groupborder Ar color
+Set the color of the border while grouping a window.
+.Pp
+.It Ic color inactiveborder Ar color
+Set the color of the inactive border.
+.Pp
+.It Ic color menubg Ar color
+Set menu background color.
+.Pp
+.It Ic color menufg Ar color
+Set menu foreground color.
+.Pp
+.It Ic color urgencyborder Ar color
+Set the color of the border of a window indicating urgency.
+.Pp
+.It Ic color ungroupborder Ar color
+Set the color of the border while ungrouping a window.
+.Pp
+.It Ic command Ar name path
+Every
+.Ar name
+entry is shown in the application menu.
+When selected, the defined
+.Ar path
+is executed with
+.Xr execve 2 .
+.Pp
+The
+.Ar name
+entries
+.Nm term
+and
+.Nm lock
+have a special meaning.
+They point to the terminal and screen locking programs specified by
+key bindings.
+The defaults are
+.Xr xterm 1
+and
+.Xr xlock 1 ,
+respectively.
+.Pp
+.It Ic fontname Ar font
+Change the default
+.Ar font
+for
+.Xr Xft 3 .
+.Pp
+.It Ic gap Ar top bottom left right
+Define a
+.Dq gap
+in pixels at the edge of the screen, so that when a
+window is maximized it will not overlap this area.
+This
+.Dq gap
+can be used for applications such as
+.Xr xclock 1 ,
+where the user may wish to remain visible.
+.Pp
+.It Ic ignore Ar windowname
+Ignore, and do not warp to, windows with the name
+.Ar windowname
+when drawing borders and cycling through windows.
+.Pp
+.It Ic mousebind Ar buttons command
+Cause the creation of a mouse binding, or replacement of a default
+mouse binding.
+The modifier keys come first, followed by a
+.Sq - .
+.Pp
+The following modifiers are recognised:
+.Pp
+.Bl -tag -width Ds -offset indent -compact
+.It C
+The Control key.
+.It M
+The Meta key.
+.It S
+The Shift key.
+.It 4
+The Mod4 key (normally the windows key).
+.El
+.Pp
+The
+.Sq -
+should be followed by number:
+.Pp
+.Bl -tag -width Ds -offset indent -compact
+.It 1
+Left mouse button.
+.It 2
+Middle mouse button.
+.It 3
+Right mouse button.
+.It 4
+Scroll up mouse button.
+.It 5
+Scroll down mouse button.
+.El
+.Pp
+The
+.Ar command
+may be taken from the
+.Sx MOUSEBIND COMMAND LIST
+(see below).
+.Pp
+.It Ic moveamount Ar pixels
+Set a default size for the keyboard movement bindings,
+in pixels.
+The default is 1.
+.Pp
+.It Ic snapdist Ar pixels
+Minimum distance to snap-to adjacent edge, in pixels.
+The default is 0.
+.Pp
+.It Ic sticky Ic yes Ns \&| Ns Ic no
+Toggle sticky group mode.
+The default behavior for new windows is to not assign any group.
+By enabling sticky group mode,
+.Xr cwm 1
+will assign new windows to the currently selected group.
+.El
+.Sh EXAMPLE CONFIGURATION
+.Bd -literal
+# Set default Xft(3) font
+fontname "sans-serif:pixelsize=14:bold"
+
+# Turn on sticky-group mode
+sticky yes
+
+# Any entry here is shown in the application menu
+command firefox		firefox
+command xmms		xmms
+command top		"xterm -e top"
+
+# Autogroup definitions
+autogroup 3 "aterm,XTerm"
+autogroup 3 "xterm,XTerm"
+
+# Ignore programs by that name by not drawing borders around them.
+ignore XMMS
+ignore xwi
+ignore xapm
+ignore xclock
+
+# Key bindings
+bind CM-r	label
+bind CS-Return	"xterm -e top"
+bind 4-o	unmap
+bind CM-equal	unmap
+bind CMS-equal	unmap
+bind C4-equal	vmaximize
+bind C4S-equal	hmaximize
+bind M-1	grouponly1
+bind M-2	grouponly2
+bind M-3	grouponly3
+bind MS-1	movetogroup1
+bind MS-2	movetogroup2
+bind MS-3	movetogroup3
+
+# Mouse bindings
+mousebind M-2	window_lower
+mousebind M-3	window_resize
+.Ed
+.Sh BIND COMMAND LIST
+.Bl -tag -width 18n -compact
+.It restart
+Restart the running
+.Xr cwm 1 .
+.It quit
+Quit
+.Xr cwm 1 .
+.It terminal
+Spawn a new terminal.
+.It lock
+Lock the screen.
+.It search
+Launch window search menu.
+.It menusearch
+Launch application search menu.
+.It exec
+Launch
+.Dq exec program
+menu.
+.It exec_wm
+Launch
+.Dq exec WindowManager
+menu.
+.It ssh
+Launch
+.Dq ssh
+menu.
+.It group[n]
+Select group n, where n is 1-9.
+.It grouponly[n]
+Like
+.Ar group[n]
+but also hides the other groups.
+.It nogroup
+Select all groups.
+.It grouptoggle
+Toggle group membership of current window.
+.It movetogroup[n]
+Hide current window from display and move to group n, where n is 1-9.
+.It cyclegroup
+Forward cycle through groups.
+.It rcyclegroup
+Reverse cycle through groups.
+.It cycle
+Forward cycle through windows.
+.It rcycle
+Reverse cycle through windows.
+.It cycleingroup
+Forward cycle through windows in current group.
+.It rcycleingroup
+Reverse cycle through windows in current group.
+.It delete
+Delete current window.
+.It hide
+Hide current window.
+.It lower
+Lower current window.
+.It raise
+Raise current window.
+.It label
+Label current window.
+.It freeze
+Freeze current window geometry.
+.It fullscreen
+Full-screen current window (gap + border removed).
+.It maximize
+Maximize current window (gap + border honored).
+.It vmaximize
+Vertically maximize current window (gap + border honored).
+.It hmaximize
+Horizontally maximize current window (gap + border honored).
+.It moveup
+Move window
+.Ar moveamount
+pixels up.
+.It movedown
+Move window
+.Ar moveamount
+pixels down.
+.It moveright
+Move window
+.Ar moveamount
+pixels right.
+.It moveleft
+Move window
+.Ar moveamount
+pixels left.
+.It bigmoveup
+Move window 10 times
+.Ar moveamount
+pixels up.
+.It bigmovedown
+Move window 10 times
+.Ar moveamount
+pixels down.
+.It bigmoveright
+Move window 10 times
+.Ar moveamount
+pixels right.
+.It bigmoveleft
+Move window 10 times
+.Ar moveamount
+pixels left.
+.It resizeup
+Resize window
+.Ar moveamount
+pixels up.
+.It resizedown
+Resize window
+.Ar moveamount
+pixels down.
+.It resizeright
+Resize window
+.Ar moveamount
+pixels right.
+.It resizeleft
+Resize window
+.Ar moveamount
+pixels left.
+.It bigresizeup
+Resize window 10 times
+.Ar moveamount
+pixels up.
+.It bigresizedown
+Resize window 10 times
+.Ar moveamount
+pixels down.
+.It bigresizeright
+Resize window 10 times
+.Ar moveamount
+pixels right.
+.It bigresizeleft
+Resize window 10 times
+.Ar moveamount
+pixels left.
+.It ptrmoveup
+Move pointer
+.Ar moveamount
+pixels up.
+.It ptrmovedown
+Move pointer
+.Ar moveamount
+pixels down.
+.It ptrmoveright
+Move pointer
+.Ar moveamount
+pixels right.
+.It ptrmoveleft
+Move pointer
+.Ar moveamount
+pixels left.
+.It bigptrmoveup
+Move pointer 10 times
+.Ar moveamount
+pixels up.
+.It bigptrmovedown
+Move pointer 10 times
+.Ar moveamount
+pixels down.
+.It bigptrmoveright
+Move pointer 10 times
+.Ar moveamount
+pixels right.
+.It bigptrmoveleft
+Move pointer 10 times
+.Ar moveamount
+pixels left.
+.It htile
+Current window is placed at the top of the screen and maximized
+horizontally, other windows in its group share remaining screen space.
+.It vtile
+Current window is placed on the left of the screen and maximized
+vertically, other windows in its group share remaining screen space.
+.El
+.Sh MOUSEBIND COMMAND LIST
+.Bl -tag -width 18n -compact
+.It window_move
+Move current window.
+.It window_resize
+Resize current window.
+.It window_lower
+Lower current window.
+.It window_raise
+Raise current window.
+.It window_hide
+Hide current window.
+.It window_grouptoggle
+Toggle group membership of current window.
+.It cyclegroup
+Forward cycle through groups.
+.It rcyclegroup
+Reverse cycle through groups.
+.It menu_group
+Launch group list.
+.It menu_unhide
+Launch hidden window list.
+.It menu_cmd
+Launch command list.
+.El
+.Sh FILES
+.Bl -tag -width "~/.cwmrcXXX" -compact
+.It Pa ~/.cwmrc
+default
+.Xr cwm 1
+configuration file
+.El
+.Sh SEE ALSO
+.Xr cwm 1
+.Sh HISTORY
+The
+.Nm
+file format first appeared in
+.Ox 4.4 .

@@ -1,0 +1,20 @@
+/Jamfile/1.2/Sun Jan 12 15:08:28 2014//
+/ftcache.c/1.1.1.1/Sat Nov 25 18:44:48 2006//
+/ftcbasic.c/1.8/Thu Oct 10 19:49:52 2013//
+/ftccache.c/1.8/Thu Oct 10 19:49:52 2013//
+/ftccache.h/1.7/Thu Oct 10 19:49:52 2013//
+/ftccback.h/1.4/Thu Oct 10 19:49:52 2013//
+/ftccmap.c/1.10/Thu Oct 10 19:49:52 2013//
+/ftcerror.h/1.2/Sat Apr 14 09:45:47 2012//
+/ftcglyph.c/1.4/Mon Jul 18 20:29:58 2011//
+/ftcglyph.h/1.4/Mon Jul 18 20:29:58 2011//
+/ftcimage.c/1.3/Wed Sep  1 19:14:25 2010//
+/ftcimage.h/1.1.1.1/Sat Nov 25 18:44:48 2006//
+/ftcmanag.c/1.8/Thu Oct 10 19:49:52 2013//
+/ftcmanag.h/1.4/Thu Oct 10 19:49:52 2013//
+/ftcmru.c/1.3/Mon Jul 18 20:29:58 2011//
+/ftcmru.h/1.4/Fri Jun  7 17:21:09 2013//
+/ftcsbits.c/1.6/Fri Jun  7 17:21:09 2013//
+/ftcsbits.h/1.2/Mon Jul 18 20:29:58 2011//
+/rules.mk/1.2/Tue Mar 10 20:28:35 2009//
+D

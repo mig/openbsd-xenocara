@@ -1,0 +1,18 @@
+/Makefile.am/1.4/Sat Nov  5 13:32:57 2011//
+/Makefile.in/1.27/Sat Aug 24 19:44:51 2013//
+/animcur.c/1.11/Sat Sep 28 15:36:36 2013//
+/filter.c/1.7/Fri Jun  7 17:28:55 2013//
+/glyph.c/1.8/Fri Jun  7 17:28:55 2013//
+/glyphstr.h/1.6/Fri Jun  7 17:28:55 2013//
+/matrix.c/1.3/Sun Jun 10 13:21:31 2012//
+/miindex.c/1.5/Sun Jun 10 13:21:31 2012//
+/mipict.c/1.6/Sun Jun 10 13:21:31 2012//
+/mipict.h/1.5/Sun Jun 10 13:21:31 2012//
+/mirect.c/1.5/Sun Jun 10 13:21:31 2012//
+/mitrap.c/1.4/Sun Jun 10 13:21:31 2012//
+/mitri.c/1.5/Sun Jun 10 13:21:31 2012//
+/picture.c/1.8/Fri Jun  7 17:28:55 2013//
+/picture.h/1.5/Sun Jun 10 13:21:31 2012//
+/picturestr.h/1.8/Fri Jun  7 17:28:55 2013//
+/render.c/1.15/Fri Jun  7 17:28:55 2013//
+D

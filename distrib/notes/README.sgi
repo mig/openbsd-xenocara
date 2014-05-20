@@ -1,0 +1,20 @@
+Post-installation instructions for X.Org on OpenBSD/sgi
+-------------------------------------------------------
+
+OpenBSD use the X.Org X server on sgi.
+
+Currently, the X server is only supported on SGI O2 workstations with a gbe(4)
+frame buffer. The wsfb driver provides an unaccelerated frame buffer for use 
+with the X server.
+
+No xorg.conf is needed in this configuration, unless you want to 
+change default options.
+
+To start xdm, the X display manager, activate the xdm_flags option in
+/etc/rc.conf. You will need to disable the console getty in /etc/ttys.
+
+Alternatively, you can log in at the console and run `startx'.
+
+problem_blurb
+
+$OpenBSD: README.sgi,v 1.5 2010/08/05 06:34:19 matthieu Exp $

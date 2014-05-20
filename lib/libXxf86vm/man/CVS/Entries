@@ -1,0 +1,25 @@
+/Makefile.am/1.4/Sun Oct 31 16:40:21 2010//
+/Makefile.in/1.10/Fri May 31 15:51:09 2013//
+/XF86VM.man/1.4/Sat Mar 10 17:10:13 2012//
+/XF86VidModeDeleteModeLine.man/1.1/Sun Oct 31 16:40:21 2010//
+/XF86VidModeGetAllModeLines.man/1.1/Sun Oct 31 16:40:21 2010//
+/XF86VidModeGetDotClocks.man/1.1/Sun Oct 31 16:40:21 2010//
+/XF86VidModeGetGamma.man/1.1/Sun Oct 31 16:40:21 2010//
+/XF86VidModeGetGammaRamp.man/1.1/Sun Oct 31 16:40:21 2010//
+/XF86VidModeGetGammaRampSize.man/1.1/Sun Oct 31 16:40:21 2010//
+/XF86VidModeGetModeLine.man/1.1/Sun Oct 31 16:40:21 2010//
+/XF86VidModeGetMonitor.man/1.1/Sun Oct 31 16:40:21 2010//
+/XF86VidModeGetPermissions.man/1.1/Sun Oct 31 16:40:21 2010//
+/XF86VidModeGetViewPort.man/1.1/Sun Oct 31 16:40:21 2010//
+/XF86VidModeLockModeSwitch.man/1.1/Sun Oct 31 16:40:21 2010//
+/XF86VidModeModModeLine.man/1.1/Sun Oct 31 16:40:21 2010//
+/XF86VidModeQueryExtension.man/1.1/Sun Oct 31 16:40:21 2010//
+/XF86VidModeQueryVersion.man/1.1/Sun Oct 31 16:40:21 2010//
+/XF86VidModeSetClientVersion.man/1.1/Sun Oct 31 16:40:21 2010//
+/XF86VidModeSetGamma.man/1.1/Sun Oct 31 16:40:21 2010//
+/XF86VidModeSetGammaRamp.man/1.1/Sun Oct 31 16:40:21 2010//
+/XF86VidModeSetViewPort.man/1.1/Sun Oct 31 16:40:21 2010//
+/XF86VidModeSwitchMode.man/1.1/Sun Oct 31 16:40:21 2010//
+/XF86VidModeSwitchToMode.man/1.1/Sun Oct 31 16:40:21 2010//
+/XF86VidModeValidateModeLine.man/1.1/Sun Oct 31 16:40:21 2010//
+D

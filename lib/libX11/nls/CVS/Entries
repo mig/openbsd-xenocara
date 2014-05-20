@@ -1,0 +1,68 @@
+/Makefile.am/1.8/Sun Apr 28 16:55:56 2013//
+/Makefile.in/1.16/Tue Jun  4 03:19:35 2013//
+/compose-check.pl/1.2/Mon May 30 19:19:32 2011//
+/compose.dir.pre/1.6/Mon Aug 26 19:57:25 2013//
+/locale.alias.pre/1.8/Sun Apr 28 16:55:56 2013//
+/locale.dir.pre/1.6/Mon Aug 26 19:57:25 2013//
+D/C////
+D/am_ET.UTF-8////
+D/armscii-8////
+D/el_GR.UTF-8////
+D/en_US.UTF-8////
+D/fi_FI.UTF-8////
+D/georgian-academy////
+D/georgian-ps////
+D/ibm-cp1133////
+D/iscii-dev////
+D/isiri-3342////
+D/iso8859-1////
+D/iso8859-10////
+D/iso8859-11////
+D/iso8859-13////
+D/iso8859-14////
+D/iso8859-15////
+D/iso8859-2////
+D/iso8859-3////
+D/iso8859-4////
+D/iso8859-5////
+D/iso8859-6////
+D/iso8859-7////
+D/iso8859-8////
+D/iso8859-9////
+D/iso8859-9e////
+D/ja////
+D/ja.JIS////
+D/ja.S90////
+D/ja.SJIS////
+D/ja.U90////
+D/ja_JP.UTF-8////
+D/km_KH.UTF-8////
+D/ko////
+D/ko_KR.UTF-8////
+D/koi8-c////
+D/koi8-r////
+D/koi8-u////
+D/microsoft-cp1251////
+D/microsoft-cp1255////
+D/microsoft-cp1256////
+D/mulelao-1////
+D/nokhchi-1////
+D/pt_BR.UTF-8////
+D/ru_RU.UTF-8////
+D/sr_CS.UTF-8////
+D/tatar-cyr////
+D/th_TH////
+D/th_TH.UTF-8////
+D/tscii-0////
+D/vi_VN.tcvn////
+D/vi_VN.viscii////
+D/zh_CN////
+D/zh_CN.UTF-8////
+D/zh_CN.gb18030////
+D/zh_CN.gbk////
+D/zh_HK.UTF-8////
+D/zh_HK.big5////
+D/zh_HK.big5hkscs////
+D/zh_TW////
+D/zh_TW.UTF-8////
+D/zh_TW.big5////
