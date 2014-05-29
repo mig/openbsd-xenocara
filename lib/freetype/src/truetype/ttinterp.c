@@ -4885,6 +4885,10 @@
     CUR.sph_in_func_flags = 0x0000;
 #endif /* TT_CONFIG_OPTION_SUBPIXEL_HINTING */
 
+#ifdef TT_CONFIG_OPTION_SUBPIXEL_HINTING
+    CUR.sph_in_func_flags = 0x0000;
+#endif /* TT_CONFIG_OPTION_SUBPIXEL_HINTING */
+
     if ( CUR.callTop <= 0 )     /* We encountered an ENDF without a call */
     {
       CUR.error = FT_THROW( ENDF_In_Exec_Stream );
@@ -6230,6 +6234,12 @@
                    ( CUR.sph_in_func_flags & SPH_FDEF_INLINE_DELTA_2 ) ) )
               goto Skip;
 
+            /* skip post-iup deltas */
+            if ( CUR.iup_called                                          &&
+                 ( ( CUR.sph_in_func_flags & SPH_FDEF_INLINE_DELTA_1 ) ||
+                   ( CUR.sph_in_func_flags & SPH_FDEF_INLINE_DELTA_2 ) ) )
+              goto Skip;
+
             if ( !( CUR.sph_tweak_flags & SPH_TWEAK_ALWAYS_SKIP_DELTAP ) &&
                   ( ( CUR.is_composite && CUR.GS.freeVector.y != 0 ) ||
                     ( CUR.zp2.tags[point] & FT_CURVE_TAG_TOUCH_Y )   ||
@@ -6519,6 +6529,7 @@
     if ( SUBPIXEL_HINTING                                  &&
          CUR.ignore_x_mode                                 &&
          CUR.GS.freeVector.x != 0                          &&
+         CUR.GS.freeVector.y == 0                          &&
          !( CUR.sph_tweak_flags & SPH_TWEAK_NORMAL_ROUND ) )
       minimum_distance = 0;
 #endif /* TT_CONFIG_OPTION_SUBPIXEL_HINTING */
@@ -8376,6 +8387,34 @@
         }
       }
 
+#endif /* TT_CONFIG_OPTION_SUBPIXEL_HINTING */
+
+#ifdef TT_CONFIG_OPTION_SUBPIXEL_HINTING
+      for ( i = 0; i < opcode_patterns; i++ )
+      {
+        if ( opcode_pointer[i] < opcode_size[i]                 &&
+             CUR.opcode == opcode_pattern[i][opcode_pointer[i]] )
+        {
+          opcode_pointer[i] += 1;
+
+          if ( opcode_pointer[i] == opcode_size[i] )
+          {
+            FT_TRACE7(( "sph: opcode ptrn: %d, %s %s\n",
+                        i,
+                        CUR.face->root.family_name,
+                        CUR.face->root.style_name ));
+
+            switch ( i )
+            {
+            case 0:
+              break;
+            }
+            opcode_pointer[i] = 0;
+          }
+        }
+        else
+          opcode_pointer[i] = 0;
+      }
 #endif /* TT_CONFIG_OPTION_SUBPIXEL_HINTING */
 
 #ifdef TT_CONFIG_OPTION_INTERPRETER_SWITCH
